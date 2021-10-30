@@ -1,9 +1,43 @@
-.body {
-    background-color: darkmagenta;
+body {
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
 }
-
-.paragraph {
-    font-size: 64px;
-    line-height: 64px;
-    font-family: 'Montserrat', sans-serif;
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 4em;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+@keyframes bgcolor{
+    0%
+    {
+        background:#990000;
+    }
+    20%
+    {
+        background:#cc0066;
+    }
+    40%
+    {
+        background:#993366;
+    }
+    60%
+    {
+        background:#660066;
+    }
+    80%
+    {
+        background:#262673;
+    }
+    100%
+    {
+        background:#003300;
+    }
 }
